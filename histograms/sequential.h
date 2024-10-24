@@ -3,7 +3,7 @@
 
 #include "histogram.h"
 
-class Sequential : Histogram {
+class Sequential : public Histogram {
  public:
   std::vector<int> calculate(const int*, const int, const int) override;
 };
