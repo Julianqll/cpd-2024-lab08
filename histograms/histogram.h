@@ -6,9 +6,7 @@
 class Histogram {
  public:
   virtual std::vector<int> calculate(const int*, const int, const int) = 0;
-  // Histogram(const int, const int);
-  // private:
-  //     std::vector<int> histogram(buckets,0);
+  virtual ~Histogram() = default;
 };
 
 #endif  // HISTOGRAM_H
