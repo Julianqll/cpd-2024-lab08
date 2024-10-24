@@ -5,7 +5,7 @@
 #include <random>
 #include <thread>
 
-#include "sequential.h"
+#include "histograms/sequential.h"
 
 static int* randomInput = nullptr;
 static const int MAXIMO_VALOR = 5;
